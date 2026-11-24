@@ -1,0 +1,6 @@
+Experiment,Cr,Cr basis,Alloy matrix,Bulk candidate,GB candidate,Limitations,Ready for predictive run
+Wang Ni-5Cr CG/FG,5,at.%,Ni-5atCr,M64-0 / M64-10 (interpolate exploratory ONLY),S24-GB or SIMS19-GB; no binary-alloy-specific value yet,Bulk interpolation not independent at 973 K; GB missing,NO
+Wang Ni-10Cr CG/FG,10,at.%,Ni-10atCr,M64-10,S24-GB or SIMS19-GB; no binary-alloy-specific value yet,1964 bulk extrapolates 340 K below measurement range; GB missing,NO
+Wang Ni-15Cr CG/FG,15,at.%,Ni-15atCr,M64-10 / M64-19.9 (interpolate exploratory ONLY),S24-GB or SIMS19-GB; no binary-alloy-specific value yet,Bulk extrapolation; GB missing,NO
+Doniger 316L,16.77,wt.%,Fe-base 316L,"CALPHAD Fe-Cr-Ni mobility, pending","Cr GB transport in Fe-base austenite, pending",Ni-base Ni-Cr-Fe alloys CH03 are NOT representative of Fe-balance 316L,NO
+Doniger 316H,16.77,wt.%,Fe-base 316H,"CALPHAD Fe-Cr-Ni mobility, pending","Cr GB transport with sensitization/carbides, pending","Ni-base CH03 carbon trends are mechanistic context, not direct 316H parameters",NO

@@ -1,0 +1,15 @@
+{
+  "T_K": 973.15,
+  "hours": 100.0,
+  "grain_CG_um": 1150.0,
+  "grain_FG_um": 3.0,
+  "grain_boundary_width_m": 5e-10,
+  "density_kg_m3": 8700.0,
+  "length_m": 0.003,
+  "min_dx_m": 2e-08,
+  "max_dx_m": 4e-06,
+  "growth": 1.025,
+  "dt_s": 15.0,
+  "history_step_h": 1.0,
+  "k_t0_s": 1.0
+}

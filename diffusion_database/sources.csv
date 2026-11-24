@@ -1,0 +1,10 @@
+Source ID,Citation,Title,URL,Notes
+S01,"Monma, Suto & Oikawa (1964)",Cr-51 tracer diffusion in FCC Ni-Cr alloys,https://doi.org/10.2320/jinstmet1952.28.4_188,1313-1573 K; extrapolation to 973 K
+S02,Cr tracer SIMS (2018),Tracer diffusion of Cr in Ni and Ni-22Cr,https://doi.org/10.1016/j.mtla.2018.08.004,815-1116 K; near target temperature
+S03,Chen et al. (2003),Volume and Grain Boundary Diffusion of Chromium in Ni-Base Ni-Cr-Fe Alloys,https://doi.org/10.2320/matertrans.44.40,858-1424 K; includes measurements at 973 K
+S04,Sevlikar et al. (2024),Cr GB diffusion and segregation in Ni Sigma11 bicrystal,https://doi.org/10.1016/j.actamat.2024.120229,503-1203 K; boundary-specific
+S05,Cr GB SIMS (2019),Grain boundary diffusion of chromium in polycrystalline nickel studied by SIMS,https://www.sciencedirect.com/science/article/pii/S2589152919300791,GB data; parameters not yet extracted
+S06,NIST mobility assessments,"Published diffusion mobility assessments, FCC Cr-Ni and Cr-Fe",https://www.nist.gov/mml/materials-science-and-engineering-division/thermodynamics-and-kinetics-group/published-diffusion,database availability; no numerical inputs imported
+S07,Bhave et al. (2023) / ATH model,Previous two-channel benchmark coefficients,https://www.sciencedirect.com/science/article/pii/S0022311522005215,legacy benchmark only; not independent validation
+S08,Wang et al. (2016),Effect of grain refinement on corrosion of Ni-Cr alloys in FLiNaK,https://doi.org/10.1016/j.corsci.2016.03.027,experimental corrosion test; no measured D_b or D_gb
+S09,Doniger et al. (2023),Corrosion of 316L and 316H stainless steel in FLiNaK,https://doi.org/10.1016/j.jnucmat.2023.154383,experimental corrosion test; no measured D_b or D_gb

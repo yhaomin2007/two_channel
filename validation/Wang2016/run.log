@@ -1,0 +1,4 @@
+Model T, Db, Dgb 973.15 2.1056653895287923e-19 1.428055153803996e-12
+{'Cr_at_pct': 5, 'CG_loss_mg_cm2': 0.01281135577458194, 'FG_loss_mg_cm2': 0.2854149983266174, 'FG_to_CG_predicted': 22.278282123183878, 'reported_range_review_only': 'roughly 2-4 across selected alloys, not individual values'}
+{'Cr_at_pct': 10, 'CG_loss_mg_cm2': 0.02577058419716868, 'FG_loss_mg_cm2': 0.5741243582083936, 'FG_to_CG_predicted': 22.278282627037633, 'reported_range_review_only': 'roughly 2-4 across selected alloys, not individual values'}
+{'Cr_at_pct': 15, 'CG_loss_mg_cm2': 0.038880262200582244, 'FG_loss_mg_cm2': 0.8661854498116969, 'FG_to_CG_predicted': 22.278282109906282, 'reported_range_review_only': 'roughly 2-4 across selected alloys, not individual values'}

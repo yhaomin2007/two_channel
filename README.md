@@ -1,26 +1,30 @@
 # Two-channel structural corrosion model — validation archive
 
-This project collects the ATH 2026 two-channel structural corrosion model, original Ni–Cr test cases, standardized corrosion-screening proposal, independent validation experiments, and a source-traceable Cr diffusion-coefficient database.
+This repository organizes the ATH 2026 two-channel structural corrosion model, original Ni–Cr benchmark archives, standardized screening proposal, external experimental papers, preliminary Wang (2016) validation simulations, two-paper comparisons, and the Cr diffusion coefficient database.
 
-## Repository layout
+## Organization
 
-- `references/` — conference paper; Wang (2016) and Doniger (2023) experimental papers.
-- `original_cases/` — Ni–5Cr and Ni–20Cr original archives.
-- `proposal/` — standardized alloy-screening assessment proposal.
-- `validation/Wang2016/` — six standalone simulations and comparison outputs.
-- `validation/Two_Paper_Validation/` — experimental comparison and Doniger table.
-- `diffusion_database/` — diffusion coefficient records, provenance, and Python scripts.
-- `review_figures/` — original review figures.
+- `references/`: ATH 2026 conference paper; Wang et al. (2016) and Doniger et al. (2023) uploaded PDFs. Publisher copyright applies; review redistribution permissions before making repository public.
+- `original_cases/`: Original Ni–5Cr and Ni–20Cr `.rar` test archives.
+- `proposal/`: Standardized Cr-depletion assessment research proposal.
+- `validation/Wang2016/`: Standalone FV two-channel solver and six-case calculation outputs, including mass-loss histories and profiles.
+- `validation/Two_Paper_Validation/`: Wang experimental comparison and Doniger Table 3 digitized measurements.
+- `diffusion_database/`: Source traceability, Arrhenius parameters, input mapping and Python selectors.
+- `review_figures/`: Review figures extracted from the project conference paper.
 
-## Important caveats
+## Scientific caution
 
-The initial Wang cases used the Bhave/Yuan diffusion correlations across alloy compositions and **must not be described as independently validated**. Cr diffusion in bulk and grain boundaries is alloy-dependent; the database records coefficient type and source so future cases can use defensible alloy-specific values. Doniger's observed total mass loss includes mechanisms beyond Cr-only perfect-sink depletion.
+The Wang simulations use the **Bhave/Yuan reference Arrhenius values** across all compositions and *have not* been re-run with independently established alloy-specific diffusion coefficients. They are preliminary predictions, not validated results. Additional chemical-interdiffusion/GB triple-product research is required before claiming predictive validation. The Doniger mass loss includes phenomena not captured by Cr-only perfect-sink modeling (including surface recession and other elements).
 
-## Reproduction
+## Run the Wang cases
 
 ```bash
 pip install numpy scipy matplotlib
 python validation/Wang2016/run_wang2016.py
 ```
 
-**Status:** Initial repository setup. A complete file bundle is being prepared separately; do not assume that all binary references or case outputs have been pushed until they appear in the repository.
+These cases originally had only literature-review-based measurements available. The experimental-comparison CSV was later created from the full Wang PDF and should supersede the early comparison annotations in the solver.
+
+## Data provenance
+
+`FILE_MANIFEST_SHA256.csv` records SHA-256 hashes and sizes for auditability. This archive preserves originally uploaded materials rather than silently changing their content.

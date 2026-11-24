@@ -1,0 +1,18 @@
+{
+  "T_K": 973.15,
+  "Db_m2s": 2.1056887597547689e-19,
+  "Dgb_m2s": 1.428066057337536e-12,
+  "density_kg_m3_assumed": 8500,
+  "Cr_weight_fraction": 0.19,
+  "grain_sizes_um_assumed": [
+    10.0,
+    30.0,
+    100.0,
+    240.0
+  ],
+  "GB_width_nm_assumed": 0.5,
+  "dt_s": 300.0,
+  "domain_m": 0.003,
+  "BC": "perfect Cr sink at 0; no flux at L",
+  "experimental_metric": "EDS depth of attack; differs from model grain-boundary diffusion length"
+}

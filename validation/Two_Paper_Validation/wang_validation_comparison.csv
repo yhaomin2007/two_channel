@@ -1,0 +1,7 @@
+paper,alloy,cr_at_pct,grain,temp_C,time_h,experimental_total_loss_mg_cm2,experimental_value_status,predicted_Cr_loss_mg_cm2,comparison_caveat
+Wang 2016,Ni-5Cr,5,CG,700,100,0.07,estimated from text ratio,0.0128113557745819,experimental total mass loss vs model Cr-only mass loss
+Wang 2016,Ni-5Cr,5,FG,700,100,0.21,paper text exact,0.2854149983266174,experimental total mass loss vs model Cr-only mass loss
+Wang 2016,Ni-10Cr,10,CG,700,100,0.14433333333333334,estimated from text ratio,0.0257705841971686,experimental total mass loss vs model Cr-only mass loss
+Wang 2016,Ni-10Cr,10,FG,700,100,0.433,paper text exact,0.5741243582083936,experimental total mass loss vs model Cr-only mass loss
+Wang 2016,Ni-15Cr,15,CG,700,100,0.8145,estimated from text ratio,0.0388802622005822,experimental total mass loss vs model Cr-only mass loss
+Wang 2016,Ni-15Cr,15,FG,700,100,1.629,paper text exact,0.8661854498116969,experimental total mass loss vs model Cr-only mass loss

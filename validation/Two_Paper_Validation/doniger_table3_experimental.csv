@@ -1,0 +1,7 @@
+alloy,capsule,weight_change_mg_cm2,weight_change_uncertainty_mg_cm2,surface_recession_um,GB_Cr_dissolution_depth_um,bulk_Cr_dissolution_depth_um
+316L,PBN,-1.5,0.1,1.13,5.8,0
+316H,PBN,-1.5,0.1,1.14,6.3,3
+316L,316L,-0.21,0.002,,0.0,6
+316H,316L,-0.119,0.001,,0.0,3
+316L,Glassy carbon,-2.0,0.2,3.7,5.8,0
+316H,Glassy carbon,-1.7,0.1,1.79,7.7,0
